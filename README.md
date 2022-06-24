@@ -130,7 +130,7 @@ try {
 
 ## Docs
  *  Though not required for just using this library, documentation on building python for android can be seen [here](BUILD_PYTHON.md). Same for ffmpeg [here](BUILD_FFMPEG.md). Alternatively, you can use pre-built packages from [here (android5+)](http://termux.net/dists/stable/) or [here (android7+)](https://bintray.com/termux/termux-packages-24).
- * youtubedl-android uses lazy extractors based build of yt-dlp - [ytdlp-lazy](https://github.com/xibr/ytdlp-lazy) (formerly [youtubedl-lazy](https://github.com/yausername/youtubedl-lazy/))
+ * youtubedl-android uses lazy extractors based build of yt-dlp - [ytdlp-lazy](https://github.com/p3g4asus/ytdlp-lazy) (formerly [youtubedl-lazy](https://github.com/yausername/youtubedl-lazy/))
 
 ## Donate
 You can support the project by donating to below addresses.

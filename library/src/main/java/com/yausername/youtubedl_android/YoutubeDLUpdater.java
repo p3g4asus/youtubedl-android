@@ -22,7 +22,7 @@ class YoutubeDLUpdater {
     private YoutubeDLUpdater() {
     }
 
-    private static final String releasesUrl = "https://api.github.com/repos/xibr/ytdlp-lazy/releases/latest";
+    private static final String releasesUrl = "https://api.github.com/repos/p3g4asus/ytdlp-lazy/releases/latest";
     private static final String youtubeDLVersionKey = "youtubeDLVersion";
 
     static UpdateStatus update(Context appContext) throws IOException, YoutubeDLException {
