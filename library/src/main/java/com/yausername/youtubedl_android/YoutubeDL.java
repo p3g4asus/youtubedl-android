@@ -196,8 +196,9 @@ public class YoutubeDL {
 
         String out = outBuffer.toString();
         String err = errBuffer.toString();
+        boolean json = request.getOption("--dump-json") != null;
 
-        if (exitCode > 0) {
+        if (exitCode > 0 && (!json || (json && out.isEmpty()))) {
             throw new YoutubeDLException(err);
         }
 
