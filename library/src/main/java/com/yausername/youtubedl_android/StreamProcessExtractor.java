@@ -69,7 +69,7 @@ class StreamProcessExtractor extends Thread {
         final Matcher matcher = p.matcher(line);
         if (matcher.find())
             return eta = convertToSeconds(matcher.group(GROUP_MINUTES), matcher.group(GROUP_SECONDS));
-        return ETA;
+        return eta;
     }
 
     private int convertToSeconds(String minutes, String seconds) {
